@@ -1,10 +1,12 @@
 # Simple production calendar for Russian Federation
+DEMO: http://olunas.ru/calendar/
 
 ## Instructions 
 
-* Clone the repo for edit sourse files
+* reacted by create-react-app
 * Run `npx create-react-app`
 * Run `npm start`
+* Clone the repo for edit sourse files
 
 ### Instructions for install widget on your website
 
