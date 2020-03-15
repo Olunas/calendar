@@ -1,4 +1,7 @@
 # Simple production calendar for Russian Federation
+
+# `npm install product-calendar-rf`
+
 DEMO: http://olunas.ru/calendar/
 
 ## Instructions 
