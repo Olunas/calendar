@@ -8,6 +8,6 @@
 
 ### Instructions for install widget on your website
 
-* Run `npm install product-calendar-RF` in directory on your page in website
+* Run `npm install product-calendar-rf` in directory on your page in website
 * Add block with id="calendarForTrueTatarin" for widget 
 * Add bundle.js with '<script type="text/javascript" src="index-bundle.js"></script>' before </body>
