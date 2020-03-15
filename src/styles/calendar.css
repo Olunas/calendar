@@ -1,0 +1,71 @@
+.calendar{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7 , 1fr);
+    grid-template-rows: 25px;
+    grid-gap: 10px;
+    text-align: center;
+}
+.calendar div{
+    cursor: pointer;
+}
+.calendar .day{
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    font-size: 15px;
+    cursor: pointer;
+}
+.calendar .day:hover{
+    background-color: lightblue !important;
+    border-color: lightblue;
+}
+select{
+    outline: none;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 13%;
+    margin-left: 5%;
+}
+select:focus, input:hover{
+    outline: none;
+}
+.selectDate{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 18px;
+    line-height: 30px;
+}
+.selectMonthWrapper{
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.prevMonth::after{
+    content: '<';
+    line-height: 35px;
+}
+.nextMonth::after{
+    content: '>';
+    line-height: 35px;
+}
+.prevMonth:hover , .nextMonth:hover{
+    color: lightblue;
+    cursor: pointer;
+}
+.selectDay{
+    width: 10%;
+    text-align: left;
+}
+.selectDay:hover{
+    color: lightblue;
+    cursor: pointer;
+}
+.selectYear:hover{
+    color: lightblue;
+    cursor: pointer;
+}
