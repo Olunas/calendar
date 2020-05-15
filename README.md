@@ -8,8 +8,8 @@ DEMO: http://olunas.ru/calendar/
 
 * reacted by create-react-app
 * Run `npx create-react-app`
-* Run `npm start`
 * Clone the repo for edit sourse files
+* Run `npm start`
 
 ### Instructions for install widget on your website
 
